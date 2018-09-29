@@ -1,0 +1,9 @@
+﻿<Application x:Class="NavaTron.Outlook.Contacts.Sync.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:NavaTron.Outlook.Contacts.Sync"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
