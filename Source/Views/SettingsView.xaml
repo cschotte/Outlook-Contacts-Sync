@@ -1,11 +1,13 @@
-﻿<Window x:Class="NavaTron.Outlook.Contacts.Sync.MainWindow"
+﻿<Window x:Class="NavaTron.Outlook.Contacts.Sync.Views.SettingsView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:NavaTron.Outlook.Contacts.Sync"
+        xmlns:local="clr-namespace:NavaTron.Outlook.Contacts.Sync.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Settings"
+        Height="130" Width="410"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         
     </Grid>

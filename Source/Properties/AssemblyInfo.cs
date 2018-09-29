@@ -7,12 +7,12 @@ using System.Windows;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NavaTron.Outlook.Contacts.Sync")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Outlook Contacts Sync")]
+[assembly: AssemblyDescription("Syncs domain users from Active Directory to your Microsoft Outlook Contacts list")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NavaTron.Outlook.Contacts.Sync")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCompany("NavaTron")]
+[assembly: AssemblyProduct("Outlook Contacts Sync")]
+[assembly: AssemblyCopyright("Copyright © NavaTron 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
