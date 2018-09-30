@@ -9,4 +9,6 @@ This tool will query your on-premise Active Directory for users and syncs the re
 ## Example Active Directory Query
 
 For example, you like to filter on physical office location and departments, use a query like this
-$ (|(physicaldeliveryofficename=SCHIPHOL*)(department=NL*)(department=EQ-NL*)(department=EQ-EQ-NL*)(company=NETHERLANDS))
+```
+(|(physicaldeliveryofficename=SCHIPHOL*)(department=NL*)(department=EQ-NL*)(department=EQ-EQ-NL*)(company=NETHERLANDS))
+```
