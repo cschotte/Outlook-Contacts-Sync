@@ -5,14 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NavaTron.Outlook.Contacts.Sync.Views"
         mc:Ignorable="d"
-        Title="Outlook Contacts Sync - "
-        Height="130" Width="410"
+        Title="Outlook Contacts Sync"
+        Height="140" Width="410"
         WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
         Loaded="Window_Loaded">
     <Grid>
         <Button Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="StartButton_Click" IsDefault="True"/>
         <Button Name="SettingsButton" Content="Settings" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="75" Click="SettingsButton_Click"/>
-        <ProgressBar Name="SyncProgressBar" Height="20" Margin="10,40,10,0" VerticalAlignment="Top" />
-        <TextBlock Name="StatusTextBlock" Margin="10,65,10,10" Text="" VerticalAlignment="Bottom" TextTrimming="WordEllipsis"/>
+        <ProgressBar Name="SyncProgressBar" Height="10" Margin="10,40,10,0" VerticalAlignment="Top" />
+        <TextBlock Name="StatusTextBlock" Margin="10,0,10,35" Text="" VerticalAlignment="Bottom" TextTrimming="WordEllipsis" Height="16"/>
+        <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10,0,0,10">           
+            <Hyperlink Name="AboutHyperlink" NavigateUri="https://github.com/NavaTron/outlook-contacts-sync" RequestNavigate="AboutHyperlink_RequestNavigate">
+                About
+            </Hyperlink>
+        </TextBlock>
     </Grid>
 </Window>
