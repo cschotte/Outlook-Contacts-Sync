@@ -6,9 +6,11 @@
         xmlns:local="clr-namespace:NavaTron.Outlook.Contacts.Sync.Views"
         mc:Ignorable="d"
         Title="Settings"
-        Height="130" Width="410"
-        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Height="200" Width="350"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded">
     <Grid>
-        
+        <Button Name="SaveButton" Content="Save" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="75" IsDefault="True" Click="SaveButton_Click"/>
+        <TextBlock Text="For advanced users, you can add an Active Directory Query. This query is used to filter the contacts you need to sync to Outlook." Margin="10,10,10,0" VerticalAlignment="Top" TextWrapping="Wrap" />
+        <TextBox Name="QueryTextBox" Height="23" Margin="10,63,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" />
     </Grid>
 </Window>

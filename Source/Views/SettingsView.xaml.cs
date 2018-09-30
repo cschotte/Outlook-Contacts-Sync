@@ -14,14 +14,24 @@ using System.Windows.Shapes;
 
 namespace NavaTron.Outlook.Contacts.Sync.Views
 {
-    /// <summary>
-    /// Interaction logic for SettingsView.xaml
-    /// </summary>
     public partial class SettingsView : Window
     {
         public SettingsView()
         {
             InitializeComponent();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            QueryTextBox.Text = Properties.Settings.Default.Filter;
+        }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            Properties.Settings.Default.Filter = QueryTextBox.Text;
+            Properties.Settings.Default.Save();
+
+            Close();
         }
     }
 }
