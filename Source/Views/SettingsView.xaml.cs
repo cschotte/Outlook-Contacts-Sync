@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,6 +33,13 @@ namespace NavaTron.Outlook.Contacts.Sync.Views
             Properties.Settings.Default.Save();
 
             Close();
+        }
+
+        private void QueryHyperlink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
+        {
+            Process.Start(new ProcessStartInfo(e.Uri.AbsoluteUri));
+
+            e.Handled = true;
         }
     }
 }
