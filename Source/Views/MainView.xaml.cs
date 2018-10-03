@@ -52,7 +52,10 @@ namespace NavaTron.Outlook.Contacts.Sync.Views
                 worker.ReportProgress(0, Properties.Resources.GetDomainUsers);
                 sync.GetDomainUsers();
 
-                worker.ReportProgress(20, Properties.Resources.GetOutlookUsers);
+                worker.ReportProgress(20, Properties.Resources.FixUserDetails);
+                sync.FixUserDetails();
+
+                worker.ReportProgress(30, Properties.Resources.GetOutlookUsers);
                 sync.GetOutlookUsers();
 
                 worker.ReportProgress(40, Properties.Resources.UpdateOutlookUsers);

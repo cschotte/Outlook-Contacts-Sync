@@ -8,6 +8,7 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using NavaTron.Outlook.Contacts.Sync.Models;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace NavaTron.Outlook.Contacts.Sync.Controllers
 {
@@ -271,6 +272,39 @@ namespace NavaTron.Outlook.Contacts.Sync.Controllers
         private void DeletePhoto(string filename)
         {
             if (File.Exists(filename)) File.Delete(filename);
+        }
+
+        internal void FixUserDetails()
+        {
+            for (int i = 0; i < domainUsers.Count; i++)
+            {
+                // fix MobileTelephoneNumber
+                if (!string.IsNullOrWhiteSpace(domainUsers[i].MobileTelephoneNumber))
+                {
+                    string num = Regex.Replace(domainUsers[i].MobileTelephoneNumber, @"\D", "");
+
+                    domainUsers[i].MobileTelephoneNumber = num;
+                }
+
+                // fix BusinessTelephoneNumber
+                if (!string.IsNullOrWhiteSpace(domainUsers[i].BusinessTelephoneNumber))
+                {
+                    string tel = domainUsers[i].BusinessTelephoneNumber;
+
+                    domainUsers[i].BusinessTelephoneNumber = tel.Split('X')[0];
+                }
+
+                // fix ManagerName
+                if (!string.IsNullOrWhiteSpace(domainUsers[i].ManagerName))
+                {
+                    Match match = Regex.Match(domainUsers[i].ManagerName, @"CN=([A-Za-z0-9\- ]+)\,");
+
+                    if (match.Success)
+                    {
+                        domainUsers[i].ManagerName = match.Value.TrimEnd(',').Replace("CN=", "");
+                    }
+                }
+            }
         }
     }
 }

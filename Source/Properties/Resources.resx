@@ -120,6 +120,9 @@
   <data name="AddOutLookUsers" xml:space="preserve">
     <value>Adding new Outlook Contacts...</value>
   </data>
+  <data name="FixUserDetails" xml:space="preserve">
+    <value>Fixing user details...</value>
+  </data>
   <data name="GetDomainUsers" xml:space="preserve">
     <value>Getting Contacts from Active Directory...</value>
   </data>

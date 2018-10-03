@@ -70,6 +70,15 @@ namespace NavaTron.Outlook.Contacts.Sync.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Fixing user details....
+        /// </summary>
+        internal static string FixUserDetails {
+            get {
+                return ResourceManager.GetString("FixUserDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Getting Contacts from Active Directory....
         /// </summary>
         internal static string GetDomainUsers {
