@@ -12,3 +12,7 @@ For example, if you like to filter on physical office location and departments, 
 ```
 (|(physicaldeliveryofficename=SCHIPHOL*)(department=NL*)(department=EQ-NL*)(department=EQ-EQ-NL*)(company=NETHERLANDS))
 ```
+
+## Main Screen
+
+![alt Outlook Contacts Sync](https://raw.github.com/NavaTron/outlook-contacts-sync/master/Source/Windows%20Store/Images/Screen1.png)
