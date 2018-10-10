@@ -45,7 +45,7 @@
     <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
     <AppInstallerUpdateFrequency>1</AppInstallerUpdateFrequency>
     <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
-    <PackageCertificateThumbprint>69AE33821EB0F4D9A22FD0BF4AD2226DFF6F4245</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>55323FFC66C5B2070E61CCAF5BA7C23090B00440</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <AppxBundle>Always</AppxBundle>
@@ -77,8 +77,6 @@
     <Content Include="Images\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Images\StoreLogo.png" />
     <Content Include="Images\Wide310x150Logo.scale-200.png" />
-    <None Include="Windows Store_TemporaryKey.pfx" />
-    <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NavaTron.Outlook.Contacts.Sync.csproj" />
