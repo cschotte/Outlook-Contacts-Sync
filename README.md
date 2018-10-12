@@ -19,4 +19,7 @@ For example, if you like to filter on physical office location and departments, 
 
 ## License
 
-[MIT](LICENSE)
+Copyright (c) 2018 by NavaTron. All rights reserved.
+
+Code License: [MIT](LICENSE)
+Applies to all other files
