@@ -21,5 +21,6 @@ For example, if you like to filter on physical office location and departments, 
 
 Copyright (c) 2018 by NavaTron. All rights reserved.
 
-Code License: [MIT](LICENSE)
+*Code License: [MIT](LICENSE)*
+
 Applies to all other files
