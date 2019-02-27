@@ -34,18 +34,18 @@
   </PropertyGroup>
   <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.props" />
   <PropertyGroup>
-    <ProjectGuid>eba76082-84c2-4102-afff-b748528f01c2</ProjectGuid>
+    <ProjectGuid>99610965-3c2e-453c-9149-353813b01590</ProjectGuid>
     <TargetPlatformVersion>10.0.17763.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.15063.0</TargetPlatformMinVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <PackageCertificateKeyFile>Outlook Contacts Sync_TemporaryKey.pfx</PackageCertificateKeyFile>
-    <EntryPointProjectUniqueName>..\..\NavaTron.Outlook.Contacts.Sync.csproj</EntryPointProjectUniqueName>
+    <PackageCertificateKeyFile>Windows Store_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>4BA9CECCDAD5384B8558E7E387C939456CB82CEA</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="Outlook Contacts Sync_TemporaryKey.pfx" />
+    <None Include="Windows Store_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\LockScreenLogo.scale-200.png" />
@@ -54,9 +54,8 @@
     <Content Include="Images\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Images\StoreLogo.png" />
     <Content Include="Images\Wide310x150Logo.scale-200.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\NavaTron.Outlook.Contacts.Sync.csproj" />
+    <None Include="Windows Store_StoreKey.pfx" />
+    <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.targets" />
 </Project>
