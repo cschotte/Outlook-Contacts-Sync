@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="Filter" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">(|(physicaldeliveryofficename=SCHIPHOL*)(department=NL*)(department=EQ-NL*)(department=EQ-EQ-NL*)(company=NETHERLANDS))</Value>
     </Setting>
     <Setting Name="Categories" Type="System.String" Scope="User">
       <Value Profile="(Default)">Contacts Sync</Value>
