@@ -15,7 +15,7 @@ For example, if you like to filter on physical office location and departments, 
 
 ## Main Screen
 
-![alt Outlook Contacts Sync](Source/Windows%20Store/Images/Screen1.png)
+![alt Outlook Contacts Sync](Windows%20Store/Images/Screen1.png)
 
 ## License
 
