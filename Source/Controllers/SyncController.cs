@@ -283,7 +283,7 @@ namespace NavaTron.Outlook.Contacts.Sync.Controllers
                 {
                     string num = Regex.Replace(domainUsers[i].MobileTelephoneNumber, @"\D", "");
 
-                    domainUsers[i].MobileTelephoneNumber = num;
+                    domainUsers[i].MobileTelephoneNumber = "+" + num;
                 }
 
                 // fix BusinessTelephoneNumber

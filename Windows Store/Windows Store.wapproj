@@ -39,7 +39,7 @@
     <TargetPlatformMinVersion>10.0.15063.0</TargetPlatformMinVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
     <PackageCertificateKeyFile>Windows Store_StoreKey.pfx</PackageCertificateKeyFile>
-    <PackageCertificateThumbprint>4BA9CECCDAD5384B8558E7E387C939456CB82CEA</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>5C796AE6122555836455845F39750263B5B86A6C</PackageCertificateThumbprint>
     <EntryPointProjectUniqueName>..\Source\NavaTron.Outlook.Contacts.Sync.csproj</EntryPointProjectUniqueName>
     <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
@@ -69,7 +69,6 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="Windows Store_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\LockScreenLogo.scale-200.png" />

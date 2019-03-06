@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap mp rescap">
-  <Identity Name="270NavaTron.44982A6B17082" Publisher="CN=3E567FD4-563E-4CA2-9863-D982D9A36413" Version="1.0.0.0" />
+  <Identity Name="270NavaTron.44982A6B17082" Publisher="CN=3E567FD4-563E-4CA2-9863-D982D9A36413" Version="1.0.1.0" />
   <Properties>
     <DisplayName>Outlook Contacts Sync</DisplayName>
     <PublisherDisplayName>Clemens Schotte</PublisherDisplayName>
