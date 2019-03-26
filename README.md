@@ -13,6 +13,11 @@ For example, if you like to filter on physical office location and departments, 
 (|(physicaldeliveryofficename=SCHIPHOL*)(department=NL*)(department=EQ-NL*)(department=EQ-EQ-NL*)(company=NETHERLANDS))
 ```
 
+Or all direct reports from your manager
+```
+(manager=CN=John Doe,OU=UserAccounts,DC=europe,DC=corp,DC=microsoft,DC=com)
+```
+
 ## Main Screen
 
 ![alt Outlook Contacts Sync](Windows%20Store/Images/Screen1.png)
