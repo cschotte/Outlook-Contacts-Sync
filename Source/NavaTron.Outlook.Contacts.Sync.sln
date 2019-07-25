@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavaTron.Outlook.Contacts.Sync", "NavaTron.Outlook.Contacts.Sync.csproj", "{8573DC6F-4D11-48A4-8836-76FFB5BFA159}"
 EndProject
-Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "Windows Store", "..\Windows Store\Windows Store.wapproj", "{99610965-3C2E-453C-9149-353813B01590}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
