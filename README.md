@@ -20,7 +20,7 @@ Or all direct reports from your manager
 
 ## Main Screen
 
-![alt Outlook Contacts Sync](Windows%20Store/Images/Screen1.png)
+![alt Outlook Contacts Sync](Source/Images/Screen1.png)
 
 ## License
 
