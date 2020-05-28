@@ -2,7 +2,7 @@
 
 Syncs domain users from Active Directory to your Microsoft Outlook Contacts list.
 
-*[Download](https://github.com/NavaTron/outlook-contacts-sync/blob/master/Download/outlook-contacts-sync.zip?raw=true)*
+*[Download](https://github.com/cschotte/outlook-contacts-sync/blob/master/Download/outlook-contacts-sync.zip?raw=true)*
 
 ## Working
 
