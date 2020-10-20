@@ -15,7 +15,7 @@
         <ProgressBar Name="SyncProgressBar" Height="10" Margin="10,40,10,0" VerticalAlignment="Top" />
         <TextBlock Name="StatusTextBlock" Margin="10,0,10,35" Text="" VerticalAlignment="Bottom" TextTrimming="WordEllipsis" Height="16"/>
         <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10,0,0,10">           
-            <Hyperlink Name="AboutHyperlink" NavigateUri="https://github.com/NavaTron/outlook-contacts-sync" RequestNavigate="AboutHyperlink_RequestNavigate">
+            <Hyperlink Name="AboutHyperlink" NavigateUri="https://github.com/cschotte/outlook-contacts-sync" RequestNavigate="AboutHyperlink_RequestNavigate">
                 About
             </Hyperlink>
         </TextBlock>
